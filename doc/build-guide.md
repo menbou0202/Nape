@@ -2,9 +2,8 @@
 
 ![](images/top.jpeg)
 
-「Nape（ネイプ）」をご購入いただきありがとうございます。
-
-Napeはご自身ではんだ付けが必要な自作トラックボールキットです。このビルドガイドを最後まで読んでから組み立てを始めてください。
+Napeはオープンソースの小型トラックボールデバイスです。PCBの製造や組み立て、使用にははんだ付けやコーディング、Gitなど専門知識がある程度必要になります。
+気軽に使いたい方はKeychronから一般販売されているNapeの製品版「Nape Pro」の購入を強くお勧めします。
 
 ## 部品・工具の確認
 
@@ -24,8 +23,13 @@ Napeはご自身ではんだ付けが必要な自作トラックボールキッ�
 | タクトスイッチ                   | 3    | [AliExpress](https://ja.aliexpress.com/item/1005001629184984.html) / [遊舎工房](https://shop.yushakobo.jp/products/a0800ts-01-1) |
 | 水平スライドスイッチ             | 1    | [AliExpress](https://ja.aliexpress.com/item/32810428058.html) / [遊舎工房](https://shop.yushakobo.jp/products/5624) |
 | M2ねじ 8mm                       | 4    | [Amazon（黒）](https://www.amazon.co.jp/dp/B0CQN8XRN1) / [Amazon（白）](https://www.amazon.co.jp/dp/B083DLYZBP) |
+| セラミック支持球                 | 3    | [Amazon](https://www.amazon.co.jp/dp/B0CCJ2JQYD) |
+| M2インサートナット               | 4    | [Amazon](https://www.amazon.co.jp/dp/B0CTTLJL6S) |
+| 磁石                             | 4    | [ダイソー](https://jp.daisonet.com/products/4549131156621) |
+| 木工用ボンド                     | 1    | — |
 | トッププレート（3Dプリント品）   | 1    | — |
 | ボトムプレート（3Dプリント品）   | 1    | — |
+| ボールケース（3Dプリント品）     | 1    | — |
 | リセットボタン（3Dプリント品）   | 1    | — |
 | スイッチキャップ（3Dプリント品） | 1    | — |
 | キーキャップ（3Dプリント品）     | 3    | — |
@@ -37,7 +41,7 @@ Napeはご自身ではんだ付けが必要な自作トラックボールキッ�
 
 | 部品 | 点数 | 主な購入先URL |
 |----|----|----|
-| Seeed XIAO BLE nRF52840（はんだ済みキットの場合は不要） | 1 | [https://akizukidenshi.com/catalog/g/g117341/](https://akizukidenshi.com/catalog/g/g117341/) |
+| Seeed XIAO BLE nRF52840 | 1 | [https://akizukidenshi.com/catalog/g/g117341/](https://akizukidenshi.com/catalog/g/g117341/) |
 | キースイッチ（Lofree Low-profile POM） | 3 | [https://lofree.co.jp/collections/switch](https://lofree.co.jp/collections/switch) |
 | 25mmトラックボール | 1 | [https://www.amazon.co.jp/dp/B0D4DYH8XY](https://www.amazon.co.jp/dp/B0D4DYH8XY), [https://shakupan.booth.pm/items/6457643](https://shakupan.booth.pm/items/6457643) |
 | リチウムポリマーバッテリー（3.7V、PH2ピンコネクタ ※極性注意） | 1 | <https://men-bou.net/nape-battery/> |
@@ -84,6 +88,9 @@ Napeはご自身ではんだ付けが必要な自作トラックボールキッ�
 | ピンセット | [https://www.amazon.co.jp/dp/B07BRSTLRQ](https://www.amazon.co.jp/dp/B07BRSTLRQ) | 使います |
 | 耐熱マット | [https://www.amazon.co.jp/dp/B07T8G79DW](https://www.amazon.co.jp/dp/B07T8G79DW) | 机の保護に |
 | キースイッチプラー、キーキャッププラー | [https://www.amazon.co.jp/dp/B0BFL6VW9Q](https://www.amazon.co.jp/dp/B0BFL6VW9Q) | キースイッチやキーキャップを取り外す器具 |
+| つまようじ | — | 木工用ボンドの塗布に使用します |
+| ウェットティッシュ | — | はみ出した木工用ボンドの拭き取りに使用します |
+| USB-Cケーブル | — | ファームウェアの書き込みと有線での動作確認に使用します |
 
 工具は各自の判断で省いていただいて結構ですが、1箇所はんだ付けの難易度が高い部品がありますので、**フラックスとはんだ吸い取り線**はご用意ください。
 
@@ -247,6 +254,24 @@ PCBの表側から脚をはんだ付けします。はんだ付けできたら�
 ![](images/NapeBuildGuide_00036.jpeg)
 
 ![](images/result-1.jpeg)
+## ケースの加工
+### トップケースの加工
+トップケース天面の穴に磁石を埋め込みます。
+露出する側の極性は二つとも同じになるように埋め込みましょう。こうすることで、後で加工するボールケースが向きに依存せずくっつくようになります。
+固いもので強く押し込むことで埋め込むことができます。緩い場合は接着剤などを使っても問題ありません。
+
+### ボールケースの加工
+裏面の穴に磁石を埋め込みます。露出する側の極性はトップケースの磁石にくっつくように取り付けてください。
+
+セラミック支持球を接着します。
+木工用ボンドを少量、つまようじで取り、溝に塗ってください。
+そこに支持球をのせ、ウェットティッシュなどではみ出すボンドをふき取りながら溝に支持球を強く押し込みます。
+
+### ボトムケースの加工
+インサートナットを圧入します。
+ボトムケースの四隅にある穴に、インサートナットを写真の向きに載せます。
+はんだごてを熱し（270℃くらい）、インサートナットの穴に垂直に押し当て、ボトムケースを間接的に熱で溶かしながら埋め込んでいきます。
+1/3ほど埋まったら、ひっくり返して耐熱の平たい面（3Dプリンタのビルドプレートなど）に押し当てることで、まっすぐ埋め込むことができます。
 
 ## 組み立て
 
@@ -269,7 +294,6 @@ PCBの表側から脚をはんだ付けします。はんだ付けできたら�
 指で押さえながら、トッププレートの表側からキースイッチを3つ取り付けます。ピンの向きをよく確認してカチッとハマるまで押し込んでください。写真の右端のキースイッチだけ取り付け向きが逆さなので注意してください。
 
 ![リセットボタンが外れないように押さえながら作業しましょう（1）](images/NapeBuildGuide_00042.jpeg)
-
 ![リセットボタンが外れないように押さえながら作業しましょう（2）](images/NapeBuildGuide_00043.jpeg)
 
 *リセットボタンが外れないように押さえながら作業しましょう*
