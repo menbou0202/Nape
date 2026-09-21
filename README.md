@@ -6,7 +6,7 @@ Nape is a wireless trackball input device based on ZMK firmware.
 
 - `case/`: STEP case files
 - `doc/`: Documentation
-- `pcb/`: KiCad 8 PCB design files
+- `pcb/`: KiCad 10 PCB design files
 
 ## Documentation
 
