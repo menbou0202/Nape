@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "_kicad_footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/_kicad_footprints.pretty")(options "")(descr "Nape project-local footprints derived from roBa"))
+  (lib (name "kbd_Parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/kbd_Parts.pretty")(options "")(descr "Nape project-local keyboard part footprints"))
+  (lib (name "kbd_SW_PCBA")(type "KiCad")(uri "${KIPRJMOD}/libraries/kbd_SW_PCBA.pretty")(options "")(descr "Nape project-local keyboard switch footprints"))
+)

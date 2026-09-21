@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Nape_Symbols")(type "KiCad")(uri "${KIPRJMOD}/libraries/Nape_Symbols.kicad_sym")(options "")(descr "All symbols used by the Nape schematic"))
+)

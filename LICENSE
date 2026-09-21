@@ -1,0 +1,8 @@
+Nape Hardware License Notice
+
+This repository contains hardware design files under different licenses.
+
+- Files in the `pcb/` directory are licensed under GPL-3.0-only.
+  See `pcb/LICENSE` for the full license text.
+- Files in the `case/` directory are licensed under CERN-OHL-P-2.0.
+  See `case/LICENSE` for the full license text.
