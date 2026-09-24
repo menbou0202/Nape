@@ -13,54 +13,53 @@ Napeはオープンソースの小型トラックボールデバイスです。P
 
 以下の部品が必要です。
 
-![](images/list5.jpeg)
+![](images/DSCF0448.jpeg)
 
-| 部品                             | 点数 | 主な購入先 |
-|----------------------------------|------|------------|
-| プリント基板（=PCB）             | 1    | — |
-| PMW3610、レンズ                  | 1    | [AliExpress](https://ja.aliexpress.com/item/1005007118767775.html) |
-| スイッチソケット（Choc）         | 3    | [AliExpress](https://ja.aliexpress.com/item/1005006007846154.html) / [遊舎工房](https://shop.yushakobo.jp/products/a01ps) |
-| タクトスイッチ                   | 3    | [AliExpress](https://ja.aliexpress.com/item/1005001629184984.html) / [遊舎工房](https://shop.yushakobo.jp/products/a0800ts-01-1) |
-| 水平スライドスイッチ             | 1    | [AliExpress](https://ja.aliexpress.com/item/32810428058.html) / [遊舎工房](https://shop.yushakobo.jp/products/5624) |
-| M2ねじ 8mm                       | 4    | [Amazon（黒）](https://www.amazon.co.jp/dp/B0CQN8XRN1) / [Amazon（白）](https://www.amazon.co.jp/dp/B083DLYZBP) |
-| セラミック支持球                 | 3    | [Amazon](https://www.amazon.co.jp/dp/B0CCJ2JQYD) |
-| M2インサートナット               | 4    | [Amazon](https://www.amazon.co.jp/dp/B0CTTLJL6S) |
-| 磁石                             | 4    | [ダイソー](https://jp.daisonet.com/products/4549131156621) |
-| 木工用ボンド                     | 1    | — |
-| トッププレート（3Dプリント品）   | 1    | — |
-| ボトムプレート（3Dプリント品）   | 1    | — |
-| ボールケース（3Dプリント品）     | 1    | — |
-| リセットボタン（3Dプリント品）   | 1    | — |
-| スイッチキャップ（3Dプリント品） | 1    | — |
-| キーキャップ（3Dプリント品）     | 3    | — |
-| クッションゴム                   | 4    | [Amazon](https://www.amazon.co.jp/dp/B00V5MQQB4) |
+![](images/DSCF0449.jpeg)
 
-![](images/NapeBuildGuide_00003_mod-1.jpeg)
 
-![](images/Nape_1.jpeg)
-
-| 部品 | 点数 | 主な購入先URL |
-|----|----|----|
-| Seeed XIAO BLE nRF52840 | 1 | [https://akizukidenshi.com/catalog/g/g117341/](https://akizukidenshi.com/catalog/g/g117341/) |
-| キースイッチ（Lofree Low-profile POM） | 3 | [https://lofree.co.jp/collections/switch](https://lofree.co.jp/collections/switch) |
-| 25mmトラックボール | 1 | [https://www.amazon.co.jp/dp/B0D4DYH8XY](https://www.amazon.co.jp/dp/B0D4DYH8XY), [https://shakupan.booth.pm/items/6457643](https://shakupan.booth.pm/items/6457643) |
-| リチウムポリマーバッテリー（3.7V、PH2ピンコネクタ ※極性注意） | 1 | <https://men-bou.net/nape-battery/> |
+| No. | 部品 | 点数 | 主な購入先 |
+|-----|------|------|------------|
+| 1  | プリント基板（=PCB）             | 1    | — |
+| 2  | PMW3610、レンズ                  | 1    | [AliExpress](https://ja.aliexpress.com/item/1005007118767775.html) |
+| 3  | スイッチソケット（Choc）         | 3    | [AliExpress](https://ja.aliexpress.com/item/1005006007846154.html) / [遊舎工房](https://shop.yushakobo.jp/products/a01ps) |
+| 4  | タクトスイッチ                   | 3    | [AliExpress](https://ja.aliexpress.com/item/1005001629184984.html) / [遊舎工房](https://shop.yushakobo.jp/products/a0800ts-01-1) |
+| 5  | 水平スライドスイッチ             | 1    | [AliExpress](https://ja.aliexpress.com/item/32810428058.html) / [遊舎工房](https://shop.yushakobo.jp/products/5624) |
+| 6  | M2ねじ 8mm                       | 4    | [Amazon（黒）](https://www.amazon.co.jp/dp/B0CQN8XRN1) / [Amazon（白）](https://www.amazon.co.jp/dp/B083DLYZBP) |
+| 7  | セラミック支持球                 | 3    | [Amazon](https://www.amazon.co.jp/dp/B0CCJ2JQYD) |
+| 8  | M2インサートナット               | 4    | [Amazon](https://www.amazon.co.jp/dp/B0CTTLJL6S) |
+| 9  | 磁石（直径0.6×0.3cm）                             | 4    | [ダイソー](https://jp.daisonet.com/products/4549131156621) |
+| 10 | トッププレート（3Dプリント品）   | 1    | — |
+| 11 | ボトムプレート（3Dプリント品）   | 1    | — |
+| 12 | ボールケース 25mm / 19mm（3Dプリント品）     | 1    | — |
+| 13 | リセットボタン（3Dプリント品）   | 1    | — |
+| 14 | スイッチキャップ（3Dプリント品） | 1    | — |
+| 15 | キーキャップ（3Dプリント品）     | 3    | — |
+| 16 | クッションゴム                   | 4    | [Amazon](https://www.amazon.co.jp/dp/B00V5MQQB4) |
+| 17 | Seeed XIAO BLE nRF52840          | 1    | [秋月電子通商](https://akizukidenshi.com/catalog/g/g117341/) |
+| 18 | キースイッチ（Lofree Low-profile POM） | 3    | [Lofree](https://lofree.co.jp/collections/switch) |
+| 19 | トラックボール25mm / 19mm                     | 1    | [Amazon](https://www.amazon.co.jp/dp/B0D4DYH8XY), [Shakupan（Booth）](https://shakupan.booth.pm/items/6457643) |
+| 20 | リチウムポリマーバッテリー（3.7V、PH2ピンコネクタ ※極性注意） | 1 | [Nape用バッテリーの選定・加工について](https://men-bou.net/nape-battery/) |
 
 以下、各部品の注意事項を記載します。よく読んでからご購入ください。
 
-#### トラックボール（25mm）
+#### トラックボールの互換性
 
 ![左：エレコム製、右：Shakupan製](images/NapeBuildGuide_00065.jpeg)
 
 *左：エレコム製、右：Shakupan製*
 
-[エレコム製](https://www.amazon.co.jp/dp/B0D4DYH8XY)のほか、shakupan氏がBoothで販売している[染色ボール](https://shakupan.booth.pm/items/6457643)で動作確認済みです。
+以下は、Napeで動作確認済みのトラックボールです。表にない製品・カラーは、動作しない可能性があります。
 
-エレコム製は滑りも感度も良いのが特徴ですが、赤色しか販売されていません。
+| メーカー・製品 | サイズ |  動作確認済み|
+|---|---:|---|
+| [エレコム](https://www.amazon.co.jp/dp/B0D4DYH8XY) | 25mm |  レッド、シルバー|
+| ペリックス | 25mm |  レッド（他の色は未確認）|
+| [Shakupan（染色ボール）](https://shakupan.booth.pm/items/6457643) | 25mm | ブラック、ライトブルー、グレー（他の色は未確認） |
+| Shakupan（フロストトラックボール） | 25mm | ブルー（他の色は未確認） |
+| Keychron（Nape Pro向け） | 25mm | ブルー、シルバー（ホワイト、パープル、イエロー、オレンジは動作しません！） |
 
-赤以外の色をお求めの場合はshakupan氏のものを選択してください。エレコム製よりもややザラッとした操作感になるので精密な操作をしたい人はこちらの方が適しているかもしれません。[ポナンザ](https://www.amazon.co.jp/dp/B000AR70IS)などで定期的に磨くとスベスベ感を維持できます。
-
-ペリックス製は動作未確認です。
+エレコム製やペリックす製、Keychron製は滑りも感度も良いのが特徴です。Shakupan製はエレコム製よりもややザラッとした操作感になるため、好みに応じて選択してください。[ポナンザ](https://www.amazon.co.jp/dp/B000AR70IS)などで定期的に磨くとスベスベ感を維持できます。
 
 #### リチウムポリマーバッテリー
 
@@ -88,6 +87,7 @@ Napeはオープンソースの小型トラックボールデバイスです。P
 | ピンセット | [https://www.amazon.co.jp/dp/B07BRSTLRQ](https://www.amazon.co.jp/dp/B07BRSTLRQ) | 使います |
 | 耐熱マット | [https://www.amazon.co.jp/dp/B07T8G79DW](https://www.amazon.co.jp/dp/B07T8G79DW) | 机の保護に |
 | キースイッチプラー、キーキャッププラー | [https://www.amazon.co.jp/dp/B0BFL6VW9Q](https://www.amazon.co.jp/dp/B0BFL6VW9Q) | キースイッチやキーキャップを取り外す器具 |
+| 速乾性木工用ボンド | — | セラミック支持球の接着に使用します |
 | つまようじ | — | 木工用ボンドの塗布に使用します |
 | ウェットティッシュ | — | はみ出した木工用ボンドの拭き取りに使用します |
 | USB-Cケーブル | — | ファームウェアの書き込みと有線での動作確認に使用します |
@@ -257,22 +257,47 @@ PCBの表側から脚をはんだ付けします。はんだ付けできたら�
 ## ケースの加工
 ### トップケースの加工
 トップケース天面の穴に磁石を埋め込みます。
-露出する側の極性は二つとも同じになるように埋め込みましょう。こうすることで、後で加工するボールケースが向きに依存せずくっつくようになります。
-固いもので強く押し込むことで埋め込むことができます。緩い場合は接着剤などを使っても問題ありません。
+![](images/DSCF0451.jpeg)
+固いもので強く押し込むことで埋め込むことができます。緩い場合は接着剤を使ってください。
+![](images/DSCF0453.jpeg)
 
+*露出する側の極性は二つとも同じ*になるように埋め込みましょう。こうすることで、後で加工するボールケースが向きに依存せずくっつくようになります。
+![](images/DSCF0454.jpeg)
 ### ボールケースの加工
-裏面の穴に磁石を埋め込みます。露出する側の極性はトップケースの磁石にくっつくように取り付けてください。
+![](images/DSCF0455.jpeg)
+
+裏面の穴に磁石を埋め込みます。まず、トップケースに埋め込んだ磁石にボールケース用の磁石をくっつけます。
+
+![](images/DSCF0458.jpeg)
+その上からボールケースを被せ、
+![](images/DSCF0462.jpeg)
+強く押し込みます。
+
+![](images/DSCF0463.jpeg)
+ボールケースを外し、裏面の磁石が奥まで入っているか確認してください。浅い場合は強く指で押し込んでください。
+
+![](images/DSCF0464.jpeg)
 
 セラミック支持球を接着します。
-木工用ボンドを少量、つまようじで取り、溝に塗ってください。
+木工用ボンドを少量、つまようじで取り、ボールケースの内側のひし形の穴に塗ってください。
+
+![](images/DSCF0465.jpeg)
+
+![](images/DSCF0467.jpeg)
+
 そこに支持球をのせ、ウェットティッシュなどではみ出すボンドをふき取りながら溝に支持球を強く押し込みます。
+![](images/DSCF0471.jpeg)
+![](images/DSCF0472.jpeg)
+全3箇所に支持球をつけたら完了です。
 
 ### ボトムケースの加工
 インサートナットを圧入します。
 ボトムケースの四隅にある穴に、インサートナットを写真の向きに載せます。
-はんだごてを熱し（270℃くらい）、インサートナットの穴に垂直に押し当て、ボトムケースを間接的に熱で溶かしながら埋め込んでいきます。
-1/3ほど埋まったら、ひっくり返して耐熱の平たい面（3Dプリンタのビルドプレートなど）に押し当てることで、まっすぐ埋め込むことができます。
-
+![](images/DSCF0473.jpeg)
+はんだごてを熱し（320℃くらい）、インサートナットの穴に垂直に押し当て、ボトムケースを間接的に熱で溶かしながら埋め込んでいきます。
+![](images/DSCF0477.jpeg)
+2/3ほど埋まったら、ひっくり返して耐熱の平たい面（3Dプリンタのビルドプレートなど）に押し当てることで、まっすぐ埋め込むことができます。
+![](images/DSCF0478.jpeg)
 ## 組み立て
 
 ケースを取り付けて組み立てます。
