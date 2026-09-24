@@ -34,8 +34,7 @@ Napeはオープンソースの小型トラックボールデバイスです。P
 | 12 | ボールケース 25mm / 19mm（3Dプリント品）     | 1    | — |
 | 13 | リセットボタン（3Dプリント品）   | 1    | — |
 | 14 | スイッチキャップ（3Dプリント品） | 1    | — |
-| 15 | キーキャップ（3Dプリント品、
-または市販のChoc V2用）     | 3    | — |
+| 15 | キーキャップ（3Dプリント品、または市販のChoc V2用）     | 3    | — |
 | 16 | クッションゴム                   | 4    | [Amazon](https://www.amazon.co.jp/dp/B00V5MQQB4) |
 | 17 | Seeed XIAO BLE nRF52840          | 1    | [秋月電子通商](https://akizukidenshi.com/catalog/g/g117341/) |
 | 18 | キースイッチ（Lofree Low-profile POM） | 3    | [Lofree](https://lofree.co.jp/collections/switch) |
