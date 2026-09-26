@@ -96,9 +96,12 @@ Napeはオープンソースの小型トラックボールデバイスです。P
 
 ### ファームウェア
 
-ファームウェアは以下からダウンロードしてPCに保存してください。
+使い方に合わせて、書き込むファームウェアを選んでください。
 
-[ファームウェアをダウンロード](https://men-bou.net/content/files/2025/12/nape-rgbled_adapter-seeeduino_xiao_ble-zmk.uf2)
+- **Nape Consoleでキーマップを変更したい方：** `nape-console.uf2`を使います。最初に書き込めば、以後はUSB接続したブラウザーからキーの割り当てを変更できます。入手方法は[Nape Consoleの使い方](https://github.com/menbou0202/nape-console/blob/main/HOW_TO_USE.md)をご覧ください。
+- **公式ZMKをベースにした構成を使いたい方：** `nape.uf2`を使います。Nape Console独自の機能は含まれません。キーマップの変更には、設定ファイルを編集してファームウェアをビルドし直します。[zmk-config-napeのmainブランチ](https://github.com/menbou0202/zmk-config-nape/tree/main)を参照してください。
+
+選んだUF2ファイルをPCへダウンロードしてから、以下の書き込み手順へ進んでください。
 
 ## パーツのはんだ付け
 
