@@ -4,3 +4,6 @@
 *-backups/
 fp-info-cache
 __pycache__/
+
+# Personal planning notes
+/doc/TODO.md
