@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+BT1,BATT,JST_S2B-PH-SM4-TB,115,-101.8,-90,bottom
+C1,1u,C_0603_1608Metric,169.875,-105.7,0,bottom
+C2,1u,C_0603_1608Metric,152.2,-96.1,180,bottom
+C3,100n,C_0603_1608Metric,169.875,-100.5,180,bottom
+C4,10n,C_0603_1608Metric,169.875,-98,180,bottom
+C5,100n (X7R),C_0603_1608Metric,152.9,-104.3,-90,bottom
+C6,10u (X7R),C_0603_1608Metric,152.9,-108.075,90,bottom
+C7,10n (X7R),C_0603_1608Metric,150.2,-108.1,90,bottom
+C8,100n,C_0603_1608Metric,152.2,-98.7,180,bottom
+C9,3.3u/25V,C_0603_1608Metric,152.2,-101.3,180,bottom
+R1,2M,C_0603_1608Metric,169.875,-107.5,0,bottom
+U2,MCP1700T-1802E/TT,SOT-23,160.9,-90.6,90,bottom

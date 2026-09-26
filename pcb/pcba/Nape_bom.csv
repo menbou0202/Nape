@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC
+MCP1700T-1802E/TT,U2,_kicad_footprints:SOT-23,C150796
+BATT,BT1,_kicad_footprints:JST_S2B-PH-SM4-TB,C295747
+3.3u/25V,C9,_kicad_footprints:C_0603_1608Metric,C19666
+10u (X7R),C6,_kicad_footprints:C_0603_1608Metric,C19666
+10n (X7R),C7,_kicad_footprints:C_0603_1608Metric,C19666
+100n (X7R),C5,_kicad_footprints:C_0603_1608Metric,C19666
+2M,R1,_kicad_footprints:C_0603_1608Metric,C26102
+1u,C2,_kicad_footprints:C_0603_1608Metric,C15849
+1u,C1,_kicad_footprints:C_0603_1608Metric,C14663
+100n,"C3,C8",_kicad_footprints:C_0603_1608Metric,C19666
+10n,C4,_kicad_footprints:C_0603_1608Metric,C19666
