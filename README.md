@@ -2,6 +2,8 @@
 
 Nape is a wireless trackball input device based on ZMK firmware.
 
+![Nape](https://booth.pximg.net/d3ead6ac-a349-44f0-9838-a4a6494cbe44/i/6749348/7e38011e-0d1a-4fe5-9796-d21e054941be_base_resized.jpg)
+
 ## Files
 
 - `case/`: STEP case files
