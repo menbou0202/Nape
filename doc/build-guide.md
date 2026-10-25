@@ -96,12 +96,26 @@ Napeはオープンソースの小型トラックボールデバイスです。P
 
 ### ファームウェア
 
-使い方に合わせて、書き込むファームウェアを選んでください。
+通常は、ビルド済みの最新ファームウェアをダウンロードして使用してください。GitHubアカウントやリポジトリのForkは不要です。
 
-- **Nape Consoleでキーマップを変更したい方：** `nape-console.uf2`を使います。最初に書き込めば、以後はUSB接続したブラウザーからキーの割り当てを変更できます。入手方法は[Nape Consoleの使い方](https://github.com/menbou0202/nape-console/blob/main/HOW_TO_USE.md)をご覧ください。
-- **公式ZMKをベースにした構成を使いたい方：** `nape.uf2`を使います。Nape Console独自の機能は含まれません。キーマップの変更には、設定ファイルを編集してファームウェアをビルドし直します。[zmk-config-napeのmainブランチ](https://github.com/menbou0202/zmk-config-nape/tree/main)を参照してください。
+1. [最新Release](https://github.com/menbou0202/zmk-config-nape/releases/latest)を開きます。
+2. 「Assets」から`nape-console.uf2`をダウンロードし、PCに保存します。「Source code」はファームウェア本体ではありません。
+3. このガイドの「ファームウェアの書き込み」の手順に従ってNapeへ書き込みます。
 
-選んだUF2ファイルをPCへダウンロードしてから、以下の書き込み手順へ進んでください。
+対応ファームウェアを書き込むと、以後は[Nape Console](https://menbou0202.github.io/nape-console/)からキーマップ、DPI、Comboなどを変更できます。操作方法は[Nape Consoleの使い方](https://github.com/menbou0202/nape-console/blob/main/HOW_TO_USE.md)をご覧ください。
+
+#### 設定ファイルを編集して、自分でビルドする場合
+
+Nape Consoleでは変更できない設定を編集したい場合などは、自分のGitHubアカウントに設定リポジトリをForkしてビルドします。
+
+1. GitHubにログインし、[zmk-config-nape](https://github.com/menbou0202/zmk-config-nape)を開きます。
+2. 右上の「Fork」から自分のアカウントへコピーします。ブランチは`main`を使います。
+3. 自分のForkで「Actions」を開き、ワークフローを有効にする確認が表示されたら有効にします。
+4. 必要に応じて`config/nape.keymap`などを編集し、`main`へ変更をコミット・pushします。自動でビルドが始まります。
+5. ファイルを変更せずにビルドする場合は、「Actions」→「Build ZMK firmware」→「Run workflow」で`main`を選び、実行します。
+6. ビルドが成功したら、その実行結果を開きます。「Artifacts」から`firmware`のZIPをダウンロードし、展開して`nape-console.uf2`を取り出します。
+
+現在の`main`はNape Console正式版です。以前の`console-beta`ブランチは`main`へ統合されています。
 
 ## パーツのはんだ付け
 
